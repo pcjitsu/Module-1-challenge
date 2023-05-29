@@ -1,9 +1,10 @@
+/* Universal Styling Below*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
+/* Sets Background color */
 body {
   background-color: #d9dcd6;
 }
@@ -15,15 +16,16 @@ body {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* sets dispaly type for headins */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* Further identifies the SEO text for color changing */
 .header h1 .seo {
   color: #d9dcd6;
 }
+/* Targets nav section of list--> change from starter code that used div */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -31,16 +33,17 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
+/* same as above commens */
 .header nav ul {
   list-style-type: none;
 }
-
+/* same as above commens */
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* below makes the changes to the anchor and paragrah tags */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -50,6 +53,7 @@ p {
   font-size: 16px;
 }
 
+/* Sets the parameters for the main image */
 .hero {
   height: 800px;
   width: 100%;
@@ -58,7 +62,7 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* sets content for everything in Main */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -74,7 +78,7 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* First CSS class targets all basic components of benefits aside; everything past that targets specific sections and overrides standard */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -133,26 +137,8 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* Below I broke up everything by section to fllow HTML semantic; all things search engine optimization go below */
 .search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -165,17 +151,22 @@ p {
   max-height: 200px;
 }
 
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+/* Below I broke up everything by section to fllow HTML semantic; all things online reputation go below */
+.online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.online-reputation-management img {
+  max-height: 200px;
 }
 
 .online-reputation-management h2 {
@@ -183,11 +174,26 @@ p {
   font-size: 36px;
 }
 
+/* Below I broke up everything by section to fllow HTML semantic; all things social media marketing go below */
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.social-media-marketing img {
+  max-height: 200px;
+}
+
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Targets footer section in sequentioal order  */
 .footer {
   padding: 30px;
   clear: both;
