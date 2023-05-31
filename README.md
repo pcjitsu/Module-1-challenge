@@ -31,4 +31,5 @@ MIT License
 
 ## Tests
 
-Go to website and compare to mock up
+Go to website and compare to mock up; please look at screenshot
+!assets/images/Web-App-Screenshot.png
