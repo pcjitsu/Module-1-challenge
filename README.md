@@ -32,4 +32,4 @@ MIT License
 ## Tests
 
 Go to website and compare to mock up; please look at screenshot
-!assets/images/Web-App-Screenshot.png
+![WebAppScreenshot] (assets/images/Web-App-Screenshot.png?raw=true)
